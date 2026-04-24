@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Wellness Resource Hub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to Main Content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <h1>Student Wellness Resource Hub</h1>
+
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="form.html">Check-In</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+
+      <button id="darkToggle" class="dark-toggle" type="button">🌙 Dark Mode</button>
+    </div>
+  </header>
+
+  <main id="main" class="page-content">
+    <section class="hero hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow">Student Wellness Website</p>
+        <h2>Support for Student Wellbeing</h2>
+        <p>
+          This website helps college students quickly find wellness-related
+          resources, including mental health support, study tools, and self-care tips.
+          It is designed to be clear, accessible, and easy to navigate.
+        </p>
+
+        <div id="daily-tip" class="daily-tip"></div>
+
+        <div class="hero-actions">
+          <a class="button-link" href="resources.html">Explore Resources</a>
+          <a class="secondary-link" href="form.html">Complete a Check-In</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="images/wellness.jpg" alt="Wooden letters spelling wellness on a calm wooden background">
+      </div>
+    </section>
+
+    <section class="content-section">
+      <h2>Featured Categories</h2>
+      <p class="section-intro">
+        Explore a few of the main types of support available on this site.
+      </p>
+
+      <div class="card-container">
+        <a href="resources.html#panel1" class="card card-link">
+          <article>
+            <h3>Mental Health Support</h3>
+            <p>
+              Find counseling services, peer support, and other mental health resources
+              that can help students manage stress and emotional wellbeing.
+            </p>
+            <span class="card-arrow">→</span>
+          </article>
+        </a>
+
+        <a href="resources.html#panel2" class="card card-link">
+          <article>
+            <h3>Study Support</h3>
+            <p>
+              Explore academic help, time management tools, and study strategies that
+              support student success throughout the semester.
+            </p>
+            <span class="card-arrow">→</span>
+          </article>
+        </a>
+
+        <a href="resources.html#panel3" class="card card-link">
+          <article>
+            <h3>Self-Care Tips</h3>
+            <p>
+              Learn simple ways to build healthier routines, reduce stress, and improve
+              overall daily wellbeing.
+            </p>
+            <span class="card-arrow">→</span>
+          </article>
+        </a>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <h2>Quick Wellness Video</h2>
+      <p class="section-intro">
+        This short video offers a simple reminder to pause, breathe, and care for yourself.
+      </p>
+
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/tEmt1Znux58"
+          title="Short wellness and stress relief video for students"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Student Wellness Resource Hub</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

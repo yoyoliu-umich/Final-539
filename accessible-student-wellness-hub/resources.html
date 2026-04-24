@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resources | Student Wellness Resource Hub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to Main Content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <h1>Student Wellness Resource Hub</h1>
+
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resources.html" aria-current="page">Resources</a></li>
+          <li><a href="form.html">Check-In</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+
+      <button id="darkToggle" class="dark-toggle" type="button">🌙 Dark Mode</button>
+    </div>
+  </header>
+
+  <main id="main" class="page-content">
+    <section class="hero">
+      <p class="eyebrow">Resources</p>
+      <h2>Explore Support by Category</h2>
+      <p>
+        Browse student wellness resources using the expandable sections below.
+        Each category includes different types of support related to mental health,
+        academics, and self-care.
+      </p>
+    </section>
+
+    <section class="content-section">
+      <h2>Search Resources</h2>
+      <p class="section-intro">
+        Type a keyword to quickly find resources related to counseling, studying, sleep, mindfulness, or health.
+      </p>
+
+      <label for="search" class="search-label">Search by keyword</label>
+      <input
+        type="text"
+        id="search"
+        class="search-input"
+        placeholder="Example: stress, writing, sleep..."
+        aria-label="Search wellness resources">
+    </section>
+
+    <section class="content-section">
+      <h2>Resource Categories</h2>
+      <p class="section-intro">
+        Use the buttons below to open and close each section.
+      </p>
+
+      <h3>
+        <button class="accordion" aria-expanded="false" aria-controls="panel1" id="accordion1">
+          Counseling &amp; Mental Health
+        </button>
+      </h3>
+
+      <div id="panel1" class="panel" hidden aria-labelledby="accordion1">
+        <ul class="resource-list">
+          <li>
+            <a href="https://caps.umich.edu/" target="_blank" rel="noopener noreferrer">
+              U-M Counseling and Psychological Services
+            </a>
+            <p>University counseling services for mental health support and appointments.</p>
+          </li>
+
+          <li>
+            <a href="https://988lifeline.org/" target="_blank" rel="noopener noreferrer">
+              988 Suicide &amp; Crisis Lifeline
+            </a>
+            <p>24/7 confidential support for people in emotional distress or crisis.</p>
+          </li>
+
+          <li>
+            <a href="https://uhs.umich.edu/wolverine-wellness" target="_blank" rel="noopener noreferrer">
+              Wolverine Wellness
+            </a>
+            <p>Health and wellness education for students, including stress and wellbeing resources.</p>
+          </li>
+        </ul>
+      </div>
+
+      <h3>
+        <button class="accordion" aria-expanded="false" aria-controls="panel2" id="accordion2">
+          Academic Support
+        </button>
+      </h3>
+
+      <div id="panel2" class="panel" hidden aria-labelledby="accordion2">
+        <ul class="resource-list">
+          <li>
+            <a href="https://lsa.umich.edu/sweetland" target="_blank" rel="noopener noreferrer">
+              Sweetland Center for Writing
+            </a>
+            <p>Writing support for students through consultations and academic writing resources.</p>
+          </li>
+
+          <li>
+            <a href="https://sites.lsa.umich.edu/scmc/" target="_blank" rel="noopener noreferrer">
+              Science Learning Center
+            </a>
+            <p>Academic support for science courses, including tutoring and study groups.</p>
+          </li>
+
+          <li>
+            <a href="https://umich.instructure.com/" target="_blank" rel="noopener noreferrer">
+              Canvas
+            </a>
+            <p>Access course materials, schedules, and academic updates in one place.</p>
+          </li>
+        </ul>
+      </div>
+
+      <h3>
+        <button class="accordion" aria-expanded="false" aria-controls="panel3" id="accordion3">
+          Self-Care &amp; Wellness
+        </button>
+      </h3>
+
+      <div id="panel3" class="panel" hidden aria-labelledby="accordion3">
+        <ul class="resource-list">
+          <li>
+            <a href="https://www.sleepfoundation.org/" target="_blank" rel="noopener noreferrer">
+              Sleep Foundation
+            </a>
+            <p>Evidence-based sleep information and tips for building healthier routines.</p>
+          </li>
+
+          <li>
+            <a href="https://www.mindful.org/" target="_blank" rel="noopener noreferrer">
+              Mindful
+            </a>
+            <p>Articles and guided practices for mindfulness, stress reduction, and daily reflection.</p>
+          </li>
+
+          <li>
+            <a href="https://uhs.umich.edu/" target="_blank" rel="noopener noreferrer">
+              University Health Service
+            </a>
+            <p>General health and wellness support for students, including preventive care resources.</p>
+          </li>
+        </ul>
+      </div>
+
+      <p id="no-results" class="no-results" hidden>No matching resources found. Try another keyword.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Student Wellness Resource Hub</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
